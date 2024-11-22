@@ -1,23 +1,25 @@
 {
-  "name": "vps-performance-bot",
+  "name": "Solfly-trading-bot",
   "version": "1.0.0",
-  "description": "A Telegram bot to test VPS performance",
+  "description": "Solfly trading bot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
-    "start:pm2": "pm2 start bot.js --name vps-performance-bot --watch"
+    "start:pm2": "pm2 start bot.js"
   },
-  "author": "Your Name",
+  "author": "Fly ecosystem",
   "license": "MIT",
   "dependencies": {
-    "@solana/web3.js": "^1.74.0",
-    "axios": "^1.7.2",
-    "firebase-admin": "^12.2.0",
-    "mongodb": "^6.7.0",
-    "node-cron": "^3.0.3",
-    "node-telegram-bot-api": "^0.57.0",
-    "os": "^0.1.1",
-    "ping": "^0.3.0",
-    "redis": "^4.6.14"
+    "@solana/web3.js": "^1.84.1",
+    "axios": "^1.8.0",
+    "firebase-admin": "^12.4.0",
+    "mongodb": "^6.9.1",
+    "mongoose": "^7.5.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.4",
+    "node-telegram-bot-api": "^0.61.0",
+    "os": "^0.1.2",
+    "ping": "^0.4.0",
+    "redis": "^4.8.0"
   }
 }
